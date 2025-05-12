@@ -2,7 +2,7 @@
 
 This project demonstrates how to implement a Binary Search Tree (BST) — a common hierarchical data structure used to maintain sorted data for fast insertion, lookup, and deletion.
 
-## 🧠 What It Does
+## What It Does
 
 The custom `BinarySearchTree` class supports:
 - `insert(key)`: Adds a node with the given value
@@ -10,9 +10,8 @@ The custom `BinarySearchTree` class supports:
 - `delete(key)`: Removes a node and restructures the tree as needed
 - `inorder_traversal()`: Returns a sorted list of all nodes in ascending order
 
-## 📌 Example
+## Example
 
-```python
 bst = BinarySearchTree()
 nodes = [50, 30, 20, 40, 70, 60, 80]
 
@@ -24,14 +23,15 @@ print("Search for 80:", bst.search(80))
 
 print("Inorder traversal:", bst.inorder_traversal())
 # Output: [20, 30, 40, 50, 60, 70, 80]
+
 ⚙️ Key Concepts
-🌿 TreeNode class with left/right children
+- TreeNode class with left/right children
 
-🔍 Recursive search and insert logic
+- Recursive search and insert logic
 
-✂️ Deletion with 3 cases (leaf, one child, two children)
+- Deletion with 3 cases (leaf, one child, two children)
 
-🧭 In-order traversal to extract sorted values
+- In-order traversal to extract sorted values
 
 🔧 Tech Used
 Python 3
